@@ -14,7 +14,6 @@ with open("text-file-process/log_files/"+file_name,encoding='utf-8') as f:
 
 names.sort()
 
-
 for name in names:
      DicCount[name]=names.count(name)
 
